@@ -7,7 +7,7 @@
     "test": "reload -v -b",
     "install-global": "npm i -g reload"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["web-workers"],
+  "author": "ULL-MII-SYTWS",
   "license": "ISC"
 }

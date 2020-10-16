@@ -1,0 +1,1 @@
+Simple Web Worker example taken from https://www.w3schools.com/html/html5_webworkers.asp
