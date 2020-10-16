@@ -1,0 +1,13 @@
+{
+  "name": "example-1",
+  "version": "1.0.0",
+  "description": "See the example at https://www.w3schools.com/html/html5_webworkers.asp",
+  "main": "index.html",
+  "scripts": {
+    "test": "reload -v -b",
+    "install-global": "npm i -g reload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
