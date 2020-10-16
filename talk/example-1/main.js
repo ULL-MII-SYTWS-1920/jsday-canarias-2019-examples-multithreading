@@ -17,3 +17,8 @@ function stopWorker() {
   w.terminate();
   w = undefined;
 }
+
+function resetCounter() {
+    let counter = Number(document.getElementById("reset").value);
+    w.postMessage(counter);
+}

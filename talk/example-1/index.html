@@ -3,9 +3,17 @@
 
 <body>
 
-    <p>Count numbers: <output id="result"></output></p>
-    <button onclick="startWorker()">Start Worker</button>
-    <button onclick="stopWorker()">Stop Worker</button>
+    <p>
+        Count numbers: <output id="result"></output>
+    </p>
+    <p>
+        <button onclick="startWorker()">Start Worker</button>
+        <button onclick="stopWorker()">Stop Worker</button>    
+    </p>
+    <label for="number">Reset counter to
+      <input type="number"  id="reset" min="0" step="1" value="1">
+    </label>
+    <input type="submit" onclick="resetCounter()">
 
     <p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support Web Workers.</p>
 

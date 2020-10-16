@@ -6,4 +6,8 @@ function timedCount() {
   setTimeout("timedCount()",500); // recursive
 }
 
+onmessage = function ({data}) {
+  i = data;
+}
+
 timedCount();
