@@ -44,6 +44,18 @@ The app will be started on locahost port 8080.
 
 **Have a lot of fun!**
 
+## Explanations
+
+### Dependencies
+
+* For Webpack and html "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+* To process css:  "mini-css-extract-plugin": "^0.8.0",
+    "webpack": "^4.41.2",    "webpack-cli": "^3.3.9"     "css-loader": "^3.2.0",
+* To work with  we need  "typescript" and to combine it with webpack we need "ts-loader",
+* To have an static server "http-server": "^0.11.1"
+ 
+
 # License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:

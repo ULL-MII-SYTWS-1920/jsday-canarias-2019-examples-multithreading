@@ -1,11 +1,11 @@
 {
     "compilerOptions": {
-        "outDir": "./dist/",
-        "noImplicitAny": true,
+        "outDir": "./dist/",   // Redirect output structure to the directory
+        "noImplicitAny": true, // Raise error on expressions and declarations with an implied any type.
         "module": "es6",
         "target": "esnext",
-        "allowJs": true,
-        "lib": [
+        "allowJs": true,       // Allow javascript files to be compiled
+        "lib": [               // Specify library files to be included in the compilation
             "webworker",
             "dom",
             "esnext"

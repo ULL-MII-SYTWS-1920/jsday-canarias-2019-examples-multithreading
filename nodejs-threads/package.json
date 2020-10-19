@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-threads",
+  "version": "1.0.0",
+  "description": "* [Using worker_threads in Node.js](https://medium.com/@Trott/using-worker-threads-in-node-js-80494136dbb6) by Rich Trott",
+  "main": "calculating-primes-threads.js",
+  "scripts": {
+    "seq": "time node calculating-primes.js",
+    "par": "time node calculating-primes-threads.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
